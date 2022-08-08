@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\AuraDeity",
+    "\\Logic",
+    "\\Logic\\Queries",
+    "\\Logic\\Queries\\Services"
+  ],
+  "SelectedNode": "\\Logic\\Queries\\Services\\JwtQueryService.cs",
+  "PreviewInSolutionExplorer": false
+}

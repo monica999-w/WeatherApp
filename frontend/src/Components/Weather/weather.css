@@ -1,0 +1,222 @@
+.loading{
+    text-align: center;
+    font-weight: bold;
+    color: #010169;
+    margin-top: 400px;
+}
+
+.all{
+    background-image: linear-gradient(#c2e4f6, #6ec8ee);;
+}
+
+.navbar {
+    width: 100%;
+    height: auto;
+    background-color: #042a61;
+    overflow: auto;
+}
+.weathericon{
+    text-align: left;
+    display: flex;
+}
+
+.Logo {
+    width: 50px;
+    height: 50px;
+}
+.title{
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    margin-left: 10px;
+}
+.imgsun{
+    width: 400px;
+}
+input{
+    border: 1px solid black;
+}
+.searchbtn{
+    background-color: #196fa1;
+    border: 2px solid #196fa1;
+    width: auto;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 5000;
+    height: 40px;
+    color: white;
+    margin-left: 10px;
+}
+.searchbtn:hover{
+    background-color: #2f00b2;
+    border: 2px solid #2f00b2;
+}
+.weather{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 600px;
+    align-items: center;
+
+}
+
+.weatherLogout{
+    text-align: right;
+}
+.navlogo{
+   text-decoration: none;
+    color: white;
+
+}
+.light{
+     color: white;
+     margin-left: 10px;
+
+ }
+.navlogo:hover{
+    color: #ffffff;
+}
+
+
+.weathercard{
+    font-size: x-large;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    background-position: center;
+
+}
+.cityweather{
+    margin-top: -10px;
+    background-position: center;
+
+}
+.city{
+    text-align: center;
+    color:  #196fa1;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-left: -150px;
+}
+.name{
+
+    font-size: x-large;
+    margin-left: 10px;
+    color: #787f86;
+}
+.namebar{
+    margin-left: 700px;
+
+}
+.barswich{
+    display: flex;
+
+}
+.bar{
+    text-align: right;
+}
+.weatherAfisare{
+    display: flex;
+    margin-left: 400px;
+    color: #196fa1;
+}
+.imgw{
+    width: 120px;
+    height: 120px;
+    margin-top: 5px;
+    margin-left: -40px;
+}
+.temperatura{
+    font-size: 120px;
+    margin-left: 30px;
+    margin-top: -40px;
+}
+.imgdiv{
+    width: 400px;
+}
+.weatherStare{
+    font-size: x-large;
+    text-align: center;
+    color: #9ca0a6;
+    margin-left: -20px;
+    margin-top: 20px;
+}
+.forecastStare{
+    font-size: medium;
+    text-align: center;
+    color: #9ca0a6;
+    margin-top: 20px;
+}
+.daydata{
+    display: flex;
+    font-weight: bold;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.weathercurrent{
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    background-position: center;
+    border-radius: 18px;
+    height: 450px;
+    padding: 60px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.extendedforecast{
+    background-color: #cdecff;
+    border: 1px solid #ffffff;
+    background-position: center;
+    border-radius: 18px;
+    height: auto;
+    padding: 60px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+}
+.forecast{
+    margin-top: 30px;
+    color: #196fa1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.moreforecast{
+    background-color: #cdecff;
+    border: 2px solid #cdecff;
+    font-size: 20px;
+    color: #787f86;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: -20px;
+    margin-left: 350px;
+}
+
+
+.infomationweather{
+    display: flex;
+    flex-direction: column;
+
+}
+.weatherim{
+    display: block;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.tempc{
+    color: white;
+    text-align: center;
+}
+.containercard{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 2fr));
+    grid-gap: 1rem;
+}
